@@ -126,18 +126,18 @@ const Home: NextPage = () => {
   return (
     <>
       {/* Header */}
-      <div className={styles.header}>
-        <div className={styles.left}>
-          <div>
-            <a
-              href="https://thirdweb.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img src={`/logo.png`} alt="Thirdweb Logo" width={135} />
-            </a>
-          </div>
-        </div>
+//      <div className={styles.header}>
+//        <div className={styles.left}>
+  //        <div>
+ //           <a
+  //            href="https://thirdweb.com/"
+ //             target="_blank"
+//              rel="noopener noreferrer"
+//            >
+//              <img src={`/logo.png`} alt="Thirdweb Logo" width={135} />
+//            </a>
+  //        </div>
+    //    </div>
         <div className={styles.right}>
           {address ? (
             <>

@@ -2,7 +2,7 @@ import React from "react";
 import type { AppProps } from "next/app";
 import { ChainId, ThirdwebProvider } from "@thirdweb-dev/react";
 import Head from "next/head";
-import ThirdwebGuideFooter from "../components/guide/ThirdwebGuideFooter";
+// import ThirdwebGuideFooter from "../components/guide/ThirdwebGuideFooter";
 import "./styles/globals.css";
 
 // This is the chainId your dApp will work on.
@@ -16,12 +16,12 @@ function MyApp({ Component, pageProps }: AppProps) {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta
           name="description"
-          content="thirdweb Example Repository to Showcase signature based minting on an NFT Collection contract"
+          content="This minter is for VIP Artist Pass (Temorarily Open to non VIP members. "
         />
         <meta name="keywords" content="thirdweb signature based minting" />
       </Head>
       <Component {...pageProps} />
-      <ThirdwebGuideFooter />
+      // <ThirdwebGuideFooter />
     </ThirdwebProvider>
   );
 }
